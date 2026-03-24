@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Bootstrap Image Project</title>
+
+<!-- Bootstrap 4 CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+body{
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+}
+.section{
+    padding: 40px 0;
+}
+h2{
+    margin-bottom: 20px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container text-center">
+
+    <h1 class="mt-4">📸 Bootstrap Image Showcase</h1>
+    <p>All image features combined in one project</p>
+
+    <!-- 1. IMAGE SHAPES -->
+    <div class="section">
+        <h2>Image Shapes</h2>
+
+        <img src="https://picsum.photos/200" class="img-rounded m-2" alt="Rounded">
+        <img src="https://picsum.photos/200" class="img-circle m-2" alt="Circle">
+        <img src="https://picsum.photos/200" class="img-thumbnail m-2" alt="Thumbnail">
+    </div>
+
+    <!-- 2. RESPONSIVE IMAGE -->
+    <div class="section">
+        <h2>Responsive Image</h2>
+
+        <img src="https://picsum.photos/800/300" class="img-responsive" alt="Responsive">
+    </div>
+
+    <!-- 3. IMAGE GALLERY -->
+    <div class="section">
+        <h2>Image Gallery</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/400/300?1" style="width:100%">
+                    <div class="caption">
+                        <p>Beautiful Nature</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/400/300?2" style="width:100%">
+                    <div class="caption">
+                        <p>Mountain View</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://picsum.photos/400/300?3" style="width:100%">
+                    <div class="caption">
+                        <p>City Lights</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 4. VIDEO EMBED -->
+    <div class="section">
+        <h2>Responsive Video</h2>
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" 
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
